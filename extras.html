@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>George Boole</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+      box-sizing: border-box;}
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;}
+    
+    
+    header {
+      background-color: #2F4F4F;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+    
+    
+    nav {
+      float: left;
+      width: 25%;
+      height: 400px; 
+      background: #ccc;
+      padding: 20px;
+    }
+    
+    
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    article {
+      float: left;
+      padding: 20px;
+      width: 75%;
+      background-color: #f1f1f1;
+      height: 400px; /* only for demonstration, should be removed */
+    }
+    
+    
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    
+    
+    
+    
+    @media (max-width: 600px) {
+      nav, article {
+        width: 100%;
+        height: auto;
+      }
+    }
+    </style>
+    </head>
+    <body>
+  
+    <header>
+      <h2 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">George Boole</h2>
+      <p style="font-size: 15px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> (November 2, 1815-December 8, 1964)</p>
+      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUSEhAVFRUVFRUVFRUVFRUVFRUXFRUXFhUVFxUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFRAQFS0dHR0rLSsrKy0rLSstLSstKy0tKystLSstLS0rLS0rLTIrKystLSstNy03Ky0tNysrKysrK//AABEIARoAswMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAACAwABBAUG/8QAOBAAAgECBAQEAwcDBAMAAAAAAAECAxEEEiExQVFhcQUigZEyscEGE0JSkqHwIzPhYnLR8RRTov/EABgBAQEBAQEAAAAAAAAAAAAAAAEAAgME/8QAHhEBAQEAAgMBAQEAAAAAAAAAAAERAjESIVFBEwP/2gAMAwEAAhEDEQA/APDRg0x8UNyIJQ5HitewvKU4dTQkiWDSy5Q4odYHIOgCXUJ7FtEegIqcO4qfO792bHsJnBCmT7x837sNyl+Z+7HZEXkHRjLKUvzv3ZTnPhJ+7NMoFZS1Y51eU/zS92SNSf5n7s3uHBoCpBDoxnU58ZP3YLlPhKXuw2i5IUzSqS/PL3YieKqbfeT/AFM1SiZ5wNShUsXV/wDbP9TAWNqrarP9TJKAGVCG2l4pWt/cl+plmOD0IZshepJFFWCSOTa0WmVKJRYhWFSG3KsSCuxagTZhWJFZSMcA0SKsSS4hMkYkirkGSQtkg8wWgri3M0gVICkaNwJroIIkhU4I0yiLcC0Mk4ipRNU4iJRNwExZBiS5EKnHqC0UEkcK2noVIIvKQBFFqIVi0x0xSiRotsvZAi9SsoxElsWglxBHN9AHYUDKBUjoMZJEmVIBo1TgKmjQJaCcS2MSVuvIizSiDKI+wucCDM0IqI0y0ESRoFaEHu3IoMWO/wAS4vckisxhsaCQMGMi9QSWAsNzFZSRcUWg8pRJSQDiG4gSYgDRLC6M5Tk4wi2o6N8L9zY8HUS1y+7YpmylSiSjUb0aS5a7jmlbqCZ2hcoj2KkKJsQfSkk9Y3TJiHG/kTS6iISCxqXMGaIsk43M5rqpiGhBbRBji+SIAdpSKQaLiY1pEEEtymiKRYSZLAkBorKFBFyIlsVNDJRKkughoweIp06bsno9dN2xNfFX2vdojk/Iko5d227O5XieIkk1FLuQcKs5LaV9bvodmOquecnPeWbjouLbPQ0r2V+Sub5T0oGaEyuapC5RMkCiRkaIyQLAMNxKaEEVl6fUQ1qaaguJItrqQKclcgasdeKCUS4INIy0EphMtEgoNItIpklkTLSBZBTYqSG2MmLxkYLR3f7eoxHLFRpw8y/E7W9zLi6NevZRgoxfGT4HNwlGtUk5KDnG92uF1quJsjWqVG4zqypJJt6K+nBG8zpmrw3hcYTyzcZSSvbl1N7iecpvJPPFu/XVu/M7WB8QjU0tllyf0ZctUPsCw5IF7GGgZRcg9EtwX3FKsUkW2BKTJF1BS3Cqt2E4Z5r807NchDQ6KeuhA0iGS6LQYNy4gRJaFWLyl2BKLSLUS8ooKI0GkC0QczxWs0lBaX37HNlHT3NGJnmqX9hdbSPsjpIzrv8A2WilCSv+JfJGD7SVIuplSV18Uur4BeGYxUYVHxdrLm9Tlzd731d7368Qk96i1ERTjxWmtkPyp3XTUUp3kktoq5sOlgMc28knfk+N1wZtnNLiefVTK4z5Sv8AudutRTea5ixqCWnAq5JA3BaplNBIFiQTic7EVHSqKpbyyWWXTkzptgSpqScZK6asUo7MTT1Tunsyziy8Jqp2hPy8NbaFjk+s+V+PTXCgAlqHE5ug2EiIsEuxEy0QQprUTjJ5YN+nuOMPjE/Ko+owVyKL8z6ILGKyj1ki6C1k+iBx8vg73OjNVVheXRFVpZV14LmHGS80noZY3l536LoUNGnZavV7mbCPWTDrS1K8OhrI1gTHfCkdvDVb04v/AEo4eOOj4c/6ce31M8ujGpvUGRGwZGUOEgrClIOLJKkXTBbDo/QKYGcdSBOSIBboDEgEMTYEa2LuUkWySRYSASCRBHE5Hi8/Pvsjsnm/EpZnLu/Y1xFFh3dNoz1nepFPZD8HG1NcRFeP9SL6N+xudgvHVMzVOO34hlSFl+wvA095MdVV1cUwVGP8O2b6mab6mnAu0H30G9ArGGvw2f8ATXS/zMOMZq8Of9NevzC9KN+YvMKiw4mSOwUWLQUQK2hlNgTCoL/sCpxvrchTj1LBOkkEmAHcy0ZGJaKuQkKxCXCZMgrStFvkmeXxbumz0PiNS0GuehwKkLtLqjpxFPjC0UuSXyEV5Rz2b1yadW2apvQw1v7qv+UYDqKSVi63wvbbhxYdKGmhWJVo2JONJG/DRtBe/uc572OxJaJdDfIRy8YaMFpFe5lxb1saqTski/E13LjITe4zYxYTUHBMTCY6LYGLY6lsKkxlOWgEqU9SAyWuxQ4nVzBxkAmEjBOUkwricwSYYtNZaYK2LIOf4vP4IpNuTsklx/jM1bw2pTtKaSXdN6ndpSs10MPjE3mbb0ukl2V38zUv4K5dQyPWr2h9TRVRlh/cl/tR0gbqaE474R9Ez+JS0CdquVh43ku51cTojN4LgZ1JtxjdR32D8Sna6e6NXtRzqavJvkaEwaStH9wbD2GmExiYiLGQkCaIpBxkKgxjZkiuOWxmuaYp214oyVJ9CFwhoQk2UXzGqAqMTTFWWyMtKsMggWuoTJCVgrgIsgts4dSd5yfBt9uR18XK0G+ll6nHirI1xFBPsZafxyfY1OQiitZd18kagbIbGDxK9jfTVkczxORce1XX+yVZQp1HdXbva+ttjN9pKsZeZ2u27W6WR5+N1s9xc3fc34e9G/jpti0guC7C2yiGmMQtFpgmmEg0ZoMdGQE1PY0N7drGSOrHykZMOhN2IBT2IB1uo1+fIequhz4q7NEWZwn5+AakZWMjMsDQglIQpDISJM/isnlXfU599LHdUji+LRyNW1vd9uxrj8FIlLTQHCLd/wCp/Qz/APnR43X7j8DLyJ823+5vMgbnI4niktTsOWhwcfK7HgKRAGaCgVJO9joGuHwrsLbDjpFLoKUgJiYSATIpGbEfTQaYqEg1IyYZTepouZYMfFhUfTjpuyDKL8q/nEhlBp1tUa1M5cDZCehVqH1Ky0SQUJCHYKMyTRmDdQQpBKp0BNEZcDmeOS+F9Gbb9DnePaxia49iuLVfEmCvniszSclxFqRKUrzjfTVfM656ZdzxCVotx0aOFVm3udvG6xkuhwqgcOlQxvdK/E7Mkltb0OThfjjfmdWY8lIy1pCBtZiEURpUWTPdJcgUyR8ZBpiYsZmBGQZqlHRdTHSZolLTcy01Udl/OJBVKemxDPsFU5GinUMcZXHLRjTGrOFm1MucaqgFozewUZMQmMhIk0pnP8bT+7T6/RmyLFY+adNppMJ2K83NX1FZtRs2r6P/AAKmjuw7GLn5G+xyKrN2Lq+WKvrZNnNkXGelR4d+ZdzpzmcygvMu5sqSCwwFVikSpIBMcRhEVciJGINMWmHczUfSQ6QmiPMkdO9iA03oQEy07myhN31RlpNN2t8zbGL2VvUqoKpS5J2+QFnyHqdl5gKbTf8AkIQqQ6MWW5tvSK9zROaWjlb1sRKi3yKqa3XBmjNpda+v1FOq9Xl4Pj0CJ5yrCLbV9m9dmZ6sbPe4VaOrb4iGd45tFaSk4/7US9upKUb27BOJINOauMnMzSRFNihTZIslgoxJLZSDjAiiBRBNhfdlfdMEbRkab6GejTNMYMzSbRhp/OZRdOOhRhKorS7VvUbQSb+J+jQDmkkn8mzRh6KfmSS9LFWkq34K/ZovLpfZ9dwbTvvH2YVZraWvdNohV0qbeuZ9tBjqPZRb9i8PCNrxSXugqSle3l93cCleCt8WUxVKl04xlnfRWt1b5GjxKjJtNZNvxGKPhNeS0lFRfBOyGZ9FcrGPK3G6fVbMyM7tP7NTb800u2rNsPs1SWjqNvukdPORnxtedw2xU6h2vEPCoQaUZKMWt292cmGDlKWWCzdtu4yyrGZRuOVLod6h4JCKWdtPuja8JFLSN/VGb/pF4vNRwzeyDp4V31R6OOGT/Dl9biVhIp6yf6voH9GvFxvuUn/2MdBvax1JxttFv1Fqm2no16q4eQxz/uBeRbf8m6KSet/VgVt9E2OrAQpSXBDnTW4dKDtxXYbTj/GZ0kxkuf7EHfcsgFno3VrxfXVGxWel2uxngvN6mKb1Y5o6daMUnu3ps9RX3utkpL00E4B+UZCTvvxAtVRaWu11RVGg7p55O3BpGfESfMLBzeur35km3/yLfm/SOzNrR26/4Znpyd9yTk7b8TKPpOSesrrlZF1MRFPV/wDy2ZcJN33fubLkhzeaPDpdX/YGgmnvG3JRsA5PmxdCTb1b2ImV5Rvrb2uDGpmj5bLv/wADZvQTJ6klU1K/mkmuSVhNeUVva/VXClJ82E3qUVKXmj5Wvb6GfzRerXsbJMViHqIrDVppO7trzVwJTzbNfzoaZAz4GgvCpre1jfh8BKp8MUlzZnhseroK1ONuS+Rm0uFPwmads0SHUrSd3qQztD//2Q==" width="250">
+    </header>
+    
+    <section>
+      <nav>
+        <ul>
+          <li><a href="index.html" style="font-size: 25px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Index</a></li>
+          <li><a href="boolean-logic.html" style="font-size: 25px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Developing Boolean Algebra</a></li>
+          <li><a href="claude-shannon.html" style="font-size: 25px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Claude Shannon</a></li>
+          <li><a href="extras.html" style="font-size: 25px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Extras</a></li>
+        </ul>
+      </nav>
+      
+      <article>
+        <h1  style="font-size:20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Extras</h1>
+        <p style="font-size: 18px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+            “The probability of an event is the reason we have to believe that it has taken place, or that it will take place.” (Goodreads)<br><br>
+            “No matter how correct a mathematical theorem may appear to be, one ought never to be satisfied that there was not something imperfect about it until it also gives the impression of being beautiful.”(Brainy quote)
+
+          </p>
+        <p style="font-size:18px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">George was a very smart man and with that a very cool fact about George Boole is that he taught himself greek, french, german, and italian, in other words he was a self taught linguist.<br><br>
+            George Boole got married to a woman named Mary in Cork, Ireland in 1855 and they had 5 daughters named: Mary Ellen, Margaret, Alicia, Lucy, and Ethel Lilian.<br>
+
+        
+        </p>
+        <p style="font-size:10px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"><strong>Sources: <br>https://www.acm.org/about-acm/boole-bio#:~:text=Boole%20died%20on%20December%208,theory%2C%20logic%2C%20and%20probabilities.
+
+
+            https://www.studysmarter.co.uk/explanations/computer-science/algorithms-in-computer-science/boolean-logic/#:~:text=The%20Role%20of%20Boolean%20Logic%20Operators%20in%20Computer%20Science,-In%20essence%2C%20Boolean&text=To%20put%20it%20simply%2C%20they,value%20of%20true%20or%20false.
+            https://www.britannica.com/biography/George-Boole
+            https://en.wikipedia.org/wiki/George_Boole
+            https://writings.stephenwolfram.com/2015/11/george-boole-a-200-year-view/
+            https://www.goodreads.com/author/quotes/40657.George_Boole#:~:text=George%20Boole%20Quotes&text='The%20probability%20of%20an%20event,'
+            https://georgeboole.com/boole/legacy/engineering/#:~:text=George%20Boole%20laid%20the%20mathematical,microelectronic%20engineering%20and%20computer%20science.
+            https://www.visitlincoln.com/blog/6-brilliant-boole-facts#:~:text=Boole%20was%20a%20self%2Dtaught%20linguist&text=Having%20mastered%20this%20language%2C%20he,of%20our%20digital%20world%20today.
+            https://www.quora.com/What-is-the-use-of-Boolean-algebra-in-computer-science#:~:text=Boolean%20algebra%20is%20a%20useful,that%20preform%20simple%20logical%20calculations.
+            https://plato.stanford.edu/entries/boole/#ContBackBoolWorkLogi
+            </strong></p>
+      </article>
+    </section>
+    
+  
+
+    
+    </body>
+    </html>
